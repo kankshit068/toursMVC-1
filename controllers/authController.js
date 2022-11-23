@@ -55,6 +55,7 @@ exports.signup = catchAsync(async (req, res, next) => {
     passwordConfirm: req.body.passwordConfirm
   });
 // console.log("_____________________________________hello")
+///fsdfasdnfksadnfkasld
   console.log(newUser);
 
   // createSendToken(newUser, 201, res);
